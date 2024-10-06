@@ -1,0 +1,60 @@
+  .nav {
+    background-color: #062457 !important;
+    color: white !important;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+    height: 100%;
+}
+
+#container {
+    position: absolute;
+    width: 100%;html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+    }
+    
+    #container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    canvas {
+        display: block; 
+    }
+    
+    #speedControl {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    label {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    
+    input[type="range"] {
+        width: 100%;
+    }
+    
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+canvas {
+    display: block; /* Remove any space around the canvas */
+}
